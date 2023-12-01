@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Hot Beans WebDev
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Georgia">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+    @media only screen and (max-width: 599px) {
+      .Small {
+        display: block;
+        /* Display Small on screens smaller than 600px */
+      }
+
+      .Big {
+        display: none;
+        /* Hide Big on screens smaller than 600px */
+      }
+    }
+
+    @media only screen and (min-width: 600px) {
+      .Small {
+        display: none;
+        /* Hide Small on screens 600px or larger */
+      }
+
+      .Big {
+        display: block;
+        /* Display Big on screens 600px or larger */
+      }
+    }
+  </style>
+
+  <style>
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+
+  <style>
+    /* got help form: https://stackoverflow.com/questions/50668594/remove-border-color-for-navbar-toggler-hamburger-icon-in-bootstrap-using-css */
+    .navbar-toggler {
+      outline: 1000px auto;
+      outline-color: #ffffff;
+    }
+  </style>
+</head>
+
+
+<body class="w3-animate-top"  style="background-color:#ffffff">
+  <div class="Big">
+    <nav style="background-color: #ED7D31;" class="w3-bar w3-border w3-card-4 w3-round-small w3-mobile">
+      <div class="w3-text-white">
+        <a href="index.html" style="background-color: #F2A36E;"
+          class="w3-bar-item w3-button w3-border w3-round-large w3-left w3-margin w3-hover-orange w3-card-4 w3-mobile"><b>Hot
+            Beans WebDev</b></a>
+        <a href="Courses.html" style="background-color: #F2A36E;"
+          class="w3-bar-item w3-button w3-border w3-round-large w3-right w3-margin w3-hover-orange w3-card-4 w3-mobile"><b>Courses</b></a>
+        <a href="Application Form.html" style="background-color: #F2A36E;"
+          class="w3-bar-item w3-button w3-border w3-round-large w3-right w3-margin w3-hover-orange w3-card-4 w3-mobile"><b>Application
+            Form</b></a>
+        <a href="Jobs RequirementsOur Team.html" style="background-color: #F2A36E;"
+          class="w3-bar-item w3-button w3-border w3-round-large w3-right w3-margin w3-hover-orange w3-card-4 w3-mobile"><b>Jobs
+            Requirements/Our Team </b></a>
+        <a href="index.html" style="background-color: #F2A36E;"
+          class="w3-bar-item w3-button w3-border w3-round-large w3-right w3-margin w3-hover-orange w3-card-4 w3-mobile"><b>Home</b></a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="Small">
+    <div class="w3-text-white">
+      <!--got this form https://www.w3schools.com/bootstrap5/tryit.asp?filename=trybs_navbar_collapse and also ues w3.css-->
+      <nav style="background-color: #ED7D31;" class="navbar navbar-expand-sm navbar-dark">
+        <div class="container-fluid">
+          <a style="background-color: #F2A36E;"
+            class="navbar-brandw3-bar-item w3-button w3-border w3-round-large w3-section w3-hover-orange w3-card-4"
+            href="index.html"><b>Hot Beans WebDev</b></a>
+          <button class="navbar-toggler custom-toggler navbar-light" type="button" data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="index.html" style="background-color: #F2A36E;"
+                  class=" align-items-center w3-bar-item w3-button w3-border w3-round-large w3-hover-orange w3-card-4 w3-mobile"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a href="Jobs RequirementsOur Team.html" style="background-color: #F2A36E;"
+                  class="w3-bar-item w3-button w3-border w3-round-large w3-margin-top w3-hover-orange w3-card-4 w3-mobile"><b>Jobs
+                    Requirements/Our Team </b></a>
+              </li>
+              <li class="nav-item">
+                <a href="Application Form.html" style="background-color: #F2A36E;"
+                  class="w3-bar-item w3-button w3-border w3-round-large w3-margin-top w3-hover-orange w3-card-4 w3-mobile"><b>Application
+                    Form</b></a>
+              </li>
+              <li class="nav-item">
+                <a href="Courses.html" style="background-color: #F2A36E;"
+                  class="w3-bar-item w3-button w3-border w3-round-large w3-section w3-hover-orange w3-card-4 w3-mobile"><b>Courses</b></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="Big">
+    <div class="w3-text-white w3-mobile">
+      <a style="background-color: #F2A36E;"
+        class="w3-bar-item w3-button w3-border w3-round-large w3-section w3-margin-left w3-hover-orange w3-card-4 w3-mobile"><b>Home</b></a>
+    </div>
+  </div>
+
+  <div class="Small">
+    <div class="w3-text-white w3-mobile">
+      <a style="background-color: #F2A36E;"
+        class="w3-bar-item w3-button w3-border w3-round-large w3-section w3-hover-orange w3-card-4 w3-mobile"><b>Home</b></a>
+    </div>
+  </div>
+  
+  <br>
+
+  <div class="Big">
+    <div class="w3-row w3-padding-16">
+      <div class="w3-third w3-container w3-container w3-right-align">
+        <img src="img\Firefly photo of CEO 52965.jpg"
+          class="w3-margin-right w3-white w3-border w3-round-large w3-card-4 w3-section" width="80%">
+      </div>
+      <div class= "w3-twothird w3-container w3-round-large w3-card-4 w3-text-white" style="background-color: #ED7D31;">
+        <div class="w3-left-align">
+          <p>
+          <h3>Elliot Reynolds embodies a fusion of dynamic vision and astute leadership. With a career steeped in
+            innovative tech ventures, Elliot's ascension to the helm of this renowned web development company heralds
+            a
+            new era. Armed with a potent blend of entrepreneurial acumen and a fervent commitment to diversity and
+            inclusion, Elliot champions a workplace culture that celebrates creativity and collaboration. His
+            strategic
+            prowess and unwavering dedication to pushing the boundaries of digital innovation propel Hot Beans Web
+            toward groundbreaking advancements in web design and development. Elliot's charismatic persona fosters an
+            environment where every employee feels valued and empowered, driving the company's success to
+            unprecedented
+            heights while forging a path toward a future where Hot Beans Web is not just a company but a
+            transformative
+            force in the tech industry.</h3>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Small">
+    <div class="w3-row w3-padding-16 w3-mobile">
+      <div class="w3-third w3-container w3-container">
+        <img src="img\Firefly photo of CEO 52965.jpg"
+          class="w3-left-align w3-margin-right w3-white w3-border w3-round-large w3-card-4 w3-section w3-mobile"
+          width="300">
+      </div>
+      <div class="w3-half w3-container w3-round-large w3-card-4 w3-text-white w3-mobile"
+        style="background-color: #ED7D31;">
+        <div class="w3-left-align">
+          <p>
+          <h5>Elliot Reynolds embodies a fusion of dynamic vision and astute leadership. With a career steeped in
+            innovative tech ventures, Elliot's ascension to the helm of this renowned web development company heralds
+            a
+            new era. Armed with a potent blend of entrepreneurial acumen and a fervent commitment to diversity and
+            inclusion, Elliot champions a workplace culture that celebrates creativity and collaboration. His
+            strategic
+            prowess and unwavering dedication to pushing the boundaries of digital innovation propel Hot Beans Web
+            toward groundbreaking advancements in web design and development. Elliot's charismatic persona fosters an
+            environment where every employee feels valued and empowered, driving the company's success to
+            unprecedented
+            heights while forging a path toward a future where Hot Beans Web is not just a company but a
+            transformative
+            force in the tech industry.</h5>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Big">
+    <div class="w3-row w3-padding-16">
+      <div class="col-sm-4 w3-third w3-container w3-container w3-right-align">
+        <img src="img\Firefly photo of CEO 44577.jpg"
+        class="w3-margin-right w3-white w3-border w3-round-large w3-card-4 w3-section" width="80%">
+      </div>
+      <div class= "w3-twothird w3-container w3-round-large w3-card-4 w3-text-white" style="background-color: #ED7D31;">
+        <div class="w3-left-align">
+          <p>
+          <h3>Alexandre Chen, the second male CEO of Hot Beans Web, exudes a commanding yet approachable presence that
+            effortlessly blends astute business acumen with a profound passion for innovation. Possessing a strikingly
+            diverse background in tech entrepreneurship and a penchant for fostering a culture of inclusivity, Chen
+            brings forth a unique blend of visionary leadership and a hands-on approach to steering the company
+            towards
+            unparalleled success. His strategic mindset and unwavering commitment to Hot Beans Web's core values have
+            not only propelled the company's growth trajectory but have also cultivated a workplace environment where
+            creativity thrives and employees feel empowered. Chen's unwavering dedication to steering Hot Beans Web
+            into
+            the vanguard of the industry is matched only by his genuine enthusiasm for nurturing talent and driving
+            forward-thinking initiatives, solidifying his status as a revered leader in the realm of digital
+            innovation.</h3>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Small">
+    <div class="w3-row w3-padding-16 w3-mobile">
+      <div class="w3-third w3-container w3-container">
+        <img src="img\Firefly photo of CEO 44577.jpg"
+          class="w3-left-align w3-margin-right w3-white w3-border w3-round-large w3-card-4 w3-section w3-mobile"
+          width="300">
+      </div>
+      <div class="w3-half w3-container w3-round-large w3-card-4 w3-text-white w3-mobile"
+        style="background-color: #ED7D31;">
+        <div class="w3-left-align">
+          <p>
+          <h5>Alexandre Chen, the second male CEO of Hot Beans Web, exudes a commanding yet approachable presence that
+            effortlessly blends astute business acumen with a profound passion for innovation. Possessing a strikingly
+            diverse background in tech entrepreneurship and a penchant for fostering a culture of inclusivity, Chen
+            brings forth a unique blend of visionary leadership and a hands-on approach to steering the company
+            towards
+            unparalleled success. His strategic mindset and unwavering commitment to Hot Beans Web's core values have
+            not only propelled the company's growth trajectory but have also cultivated a workplace environment where
+            creativity thrives and employees feel empowered. Chen's unwavering dedication to steering Hot Beans Web
+            into
+            the vanguard of the industry is matched only by his genuine enthusiasm for nurturing talent and driving
+            forward-thinking initiatives, solidifying his status as a revered leader in the realm of digital
+            innovation.</h5>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Big">
+    <div class="w3-row w3-padding-16">
+      <div class="col-sm-4 w3-third w3-container w3-container w3-right-align">
+        <img src="img\Firefly photo of CEO 45137.jpg"
+        class="w3-margin-right w3-white w3-border w3-round-large w3-card-4 w3-section" width="80%">
+      </div>
+      <div class= "w3-twothird w3-container w3-round-large w3-card-4 w3-text-white" style="background-color: #ED7D31;">
+        <div class="w3-left-align">
+          <p>
+          <h3>Evelyn Park, the trailblazing pioneer, ascended to become the inaugural female CEO of Hot Beans Web,
+            leaving an indelible mark on the tech industry. With a formidable blend of visionary leadership and
+            unwavering determination, Evelyn propelled the company to new heights. Her journey was steeped in
+            innovation, navigating uncharted territories while fostering a culture of inclusivity and empowerment
+            within
+            the organization. Her strategic acumen and unparalleled commitment to excellence reshaped the company's
+            trajectory, setting new standards for technological advancement and corporate success. Evelyn Park's
+            ascent
+            not only shattered the glass ceiling but also served as an inspiring testament to the transformative power
+            of resilience and female leadership in the digital era.</h3>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Small">
+    <div class="w3-row w3-padding-16 w3-mobile">
+      <div class="w3-third w3-container w3-container">
+        <img src="img\Firefly photo of CEO 45137.jpg"
+          class="w3-left-align w3-margin-right w3-white w3-border w3-round-large w3-card-4 w3-section w3-mobile"
+          width="300">
+      </div>
+      <div class="w3-half w3-container w3-round-large w3-card-4 w3-text-white w3-mobile"
+        style="background-color: #ED7D31;">
+        <div class="w3-left-align">
+          <p>
+          <h5>Evelyn Park, the trailblazing pioneer, ascended to become the inaugural female CEO of Hot Beans Web,
+            leaving an indelible mark on the tech industry. With a formidable blend of visionary leadership and
+            unwavering determination, Evelyn propelled the company to new heights. Her journey was steeped in
+            innovation, navigating uncharted territories while fostering a culture of inclusivity and empowerment
+            within
+            the organization. Her strategic acumen and unparalleled commitment to excellence reshaped the company's
+            trajectory, setting new standards for technological advancement and corporate success. Evelyn Park's
+            ascent
+            not only shattered the glass ceiling but also served as an inspiring testament to the transformative power
+            of resilience and female leadership in the digital era.</h5>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w3-container w3-round-large w3-card-4 w3-text-white w3-mobile w3-col" style="background-color: #ED7D31; width: 10%;">
+    <p>
+    <h5>Content generated by AI</h5>
+    </p>
+  </div>
+</body>
+</html>
